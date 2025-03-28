@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Page Header */
+.page-header h1 {
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+.page-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Payment Success Details */
+.payment-success-details {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ecf9ec;
+}
+
+.payment-success-details h2 {
+    font-size: 22px;
+    color: #27ae60;
+}
+
+.payment-success-details p {
+    font-size: 16px;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}

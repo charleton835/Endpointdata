@@ -1,0 +1,118 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Login Section */
+.login-section {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Container for login form */
+.login-container {
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Login form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Password container to include the show/hide text */
+.password-container {
+    position: relative;
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
+
+/* Button styles */
+button.btn {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .login-section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button.btn {
+        font-size: 14px;
+    }
+}

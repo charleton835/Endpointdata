@@ -1,0 +1,48 @@
+/* Payment Page Styles */
+.payment-details {
+    background: #eef2f7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.payment-details p {
+    font-size: 18px;
+}
+
+.payment-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.payment-form .cta-button {
+    display: block;
+    width: 100%;
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.payment-form .cta-button:hover {
+    background: #218838;
+}

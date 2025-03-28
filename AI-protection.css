@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #1e3a8a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Section Styling */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #1e3a8a;
+}
+
+.section p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* List Styling */
+.section ul {
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+.section ul li {
+    list-style-type: disc;
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #1e3a8a;
+    color: #fff;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .section h2 {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

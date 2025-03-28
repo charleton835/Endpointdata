@@ -1,0 +1,51 @@
+/* Signup Page Specific Styles */
+.signup-section {
+    padding: 8rem 0 4rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    min-height: 100vh;
+}
+
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--dark);
+}
+
+.signup-container p {
+    color: var(--gray);
+    margin-bottom: 2rem;
+}
+
+.signup-form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.signup-form .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.login-link a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
